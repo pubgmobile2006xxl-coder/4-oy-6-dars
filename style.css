@@ -1,1 +1,259 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+header .container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+header .container .navbar .navbar_ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+header .container .navbar .navbar_ul ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header .container .navbar .navbar_ul ul li {
+  list-style: none;
+}
+header .container .navbar .navbar_ul ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #150C01;
+  text-decoration: none;
+  transition: all 1s ease-in-out;
+}
+header .container .navbar .navbar_ul ul li a:hover {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #DC780B;
+}
+header .container .navbar button {
+  width: 155px;
+  height: 46px;
+  background: #DC780B;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #FFFFFF;
+  transition: all 1s ease-in-out;
+}
+header .container .navbar button:hover {
+  background: none;
+  border: 1px solid #DC780B;
+  color: #DC780B;
+}
+
+main .section1 {
+  margin-top: 20px;
+}
+main .section1 .container .marking_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .section1 .container .marking_cards .marking_texet {
+  width: 535px;
+  padding-top: 50px;
+}
+main .section1 .container .marking_cards .marking_texet h1 {
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 58px;
+  color: #150C01;
+  padding-bottom: 42px;
+}
+main .section1 .container .marking_cards .marking_texet p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+  padding-bottom: 50px;
+}
+main .section1 .container .marking_cards .marking_texet .marking_button {
+  display: flex;
+  gap: 30px;
+}
+main .section1 .container .marking_cards .marking_texet .marking_button button {
+  width: 158px;
+  height: 40px;
+  background: #DC780B;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #FFFFFF;
+  transition: all 1s ease-in-out;
+}
+main .section1 .container .marking_cards .marking_texet .marking_button button:hover {
+  background: none;
+  border: #DC780B;
+  color: #DC780B;
+  border: 1px solid #DC780B;
+}
+main .section1 .container .marking_cards .marking_texet .marking_button .food {
+  width: 158px;
+  height: 40px;
+  background: none;
+  border: 1px solid #DC780B;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #DC780B;
+  transition: all 1s ease-in-out;
+}
+main .section1 .container .marking_cards .marking_texet .marking_button .food:hover {
+  background: #DC780B;
+  border: none;
+  color: #FFFFFF;
+}
+main .section1 .container .marking_cards img {
+  width: 450px;
+  height: 400px;
+}
+main .section2 .container .new {
+  margin-top: 100px;
+}
+main .section2 .container .new .fe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #DC780B;
+  text-align: center;
+}
+main .section2 .container .new h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #150C01;
+  padding-top: 7px;
+  text-align: center;
+}
+main .section2 .container .new .new_cards {
+  margin-top: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .section2 .container .new .new_cards .card {
+  width: 300px;
+  height: 228px;
+  text-align: center;
+}
+main .section2 .container .new .new_cards .card h4 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  color: #150C01;
+  padding-top: 34px;
+}
+main .section2 .container .new .new_cards .card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+  padding-top: 15px;
+}
+main .section2 .container .new .new_cards .card .new_rasm1 {
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  background: rgba(143, 166, 50, 0.2274509804);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+main .section2 .container .new .new_cards .card .new_rasm2 {
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  background: rgba(230, 77, 46, 0.1529411765);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+main .section2 .container .new .new_cards .card .new_rasm3 {
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  background: rgba(220, 119, 11, 0.2352941176);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+main .section3 {
+  margin-top: 100px;
+}
+main .section3 .container .about .about_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .section3 .container .about .about_cards img {
+  width: 45%;
+}
+main .section3 .container .about .about_cards .about_texet {
+  width: 40%;
+}
+main .section3 .container .about .about_cards .about_texet .us {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #DC780B;
+}
+main .section3 .container .about .about_cards .about_texet h1 {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 41px;
+  color: #150C01;
+  padding-top: 10px;
+}
+main .section3 .container .about .about_cards .about_texet p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+  padding-top: 30px;
+}
+main .section3 .container .about .about_cards .about_texet button {
+  width: 142px;
+  height: 42px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  background: #DC780B;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #FFFFFF;
+  transition: all 1s ease-in-out;
+}
+main .section3 .container .about .about_cards .about_texet button:hover {
+  border: 1px solid #DC780B;
+  border-radius: 5px;
+  background: none;
+  color: #DC780B;
+}/*# sourceMappingURL=style.css.map */

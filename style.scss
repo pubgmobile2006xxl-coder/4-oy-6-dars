@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 10px;
+    margin: 0 auto;
+    // background: chartreuse;
+}
+
+header {
+    .container {
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px;
+
+            .navbar_ul {
+                display: flex;
+                align-items: center;
+                gap: 35px;
+
+                ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 100%;
+                            color: #150C01;
+                            text-decoration: none;
+                            transition: all 1s ease-in-out;
+                        }
+
+                        a:hover {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 100%;
+                            color: #DC780B;
+                        }
+                    }
+                }
+            }
+
+            button {
+                width: 155px;
+                height: 46px;
+                background: #DC780B;
+                border: none;
+                border-radius: 5px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #FFFFFF;
+                transition: all 1s ease-in-out;
+            }
+
+            button:hover {
+                background: none;
+                border: 1px solid #DC780B;
+                color: #DC780B;
+            }
+        }
+    }
+}
+
+main {
+    .section1 {
+        margin-top: 20px;
+
+        .container {
+            .marking_cards {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .marking_texet {
+                    width: 535px;
+                    padding-top: 50px;
+
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 49px;
+                        line-height: 58px;
+                        color: #150C01;
+                        padding-bottom: 42px;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #150C01;
+                        padding-bottom: 50px;
+                    }
+
+                    .marking_button {
+                        display: flex;
+                        gap: 30px;
+
+                        button {
+                            width: 158px;
+                            height: 40px;
+                            background: #DC780B;
+                            border: none;
+                            border-radius: 5px;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 100%;
+                            color: #FFFFFF;
+                            transition: all 1s ease-in-out;
+                        }
+
+                        button:hover {
+                            background: none;
+                            border: #DC780B;
+                            color: #DC780B;
+                            border: 1px solid #DC780B;
+                        }
+
+                        .food {
+                            width: 158px;
+                            height: 40px;
+                            background: none;
+                            border: 1px solid #DC780B;
+                            border-radius: 5px;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 100%;
+                            color: #DC780B;
+                            transition: all 1s ease-in-out;
+                        }
+
+                        .food:hover {
+                            background: #DC780B;
+                            border: none;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                img {
+                    width: 450px;
+                    height: 400px;
+                }
+            }
+        }
+    }
+
+    .section2 {
+        .container {
+            .new {
+                margin-top: 100px;
+
+                .fe {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 100%;
+                    color: #DC780B;
+                    text-align: center;
+                }
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 100%;
+                    color: #150C01;
+                    padding-top: 7px;
+                    text-align: center;
+                }
+
+                .new_cards {
+                    margin-top: 44px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .card {
+                        width: 300px;
+                        height: 228px;
+                        text-align: center;
+
+                        h4 {
+                            font-weight: 700;
+                            font-size: 25px;
+                            line-height: 24px;
+                            color: #150C01;
+                            padding-top: 34px;
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #150C01;
+                            padding-top: 15px;
+                        }
+
+                        .new_rasm1 {
+                            width: 88px;
+                            height: 88px;
+                            border-radius: 100%;
+                            background: #8fa6323a;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 0 auto;
+                        }
+
+                        .new_rasm2 {
+                            width: 88px;
+                            height: 88px;
+                            border-radius: 100%;
+                            background: #e64d2e27;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 0 auto;
+                        }
+
+                        .new_rasm3 {
+                            width: 88px;
+                            height: 88px;
+                            border-radius: 100%;
+                            background: #dc770b3c;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section3 {
+        margin-top: 100px;
+        .container {
+            .about {
+
+                .about_cards {
+                    display: flex;
+                    align-items: center;
+                    // gap: 50px;
+                    justify-content: space-between;
+
+                    img {
+                        width: 45%;
+                    }
+
+                    .about_texet {
+                        width: 40%;
+                        
+
+                        .us{
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #DC780B;
+                        }
+                        h1{
+                            font-weight: 700;
+                            font-size: 31px;
+                            line-height: 41px;
+                            color: #150C01;
+                            padding-top: 10px;
+                        }
+
+                        p{
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #150C01;
+                            padding-top: 30px;
+                        }
+
+                        button{
+                            width: 142px;
+                            height: 42px;
+                            margin-top: 30px;
+                            border: none;
+                            border-radius: 5px;
+                            background: #DC780B;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 100%;
+                            color: #FFFFFF;
+                            transition: all 1s ease-in-out;
+                        }
+                        button:hover{
+                            border: 1px solid #DC780B;
+                            border-radius: 5px;
+                            background: none;
+                            color: #DC780B;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .
+}
