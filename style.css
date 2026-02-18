@@ -9,6 +9,7 @@
   max-width: 1140px;
   padding: 0 10px;
   margin: 0 auto;
+  background: chartreuse;
 }
 
 header .container .navbar {
@@ -16,6 +17,9 @@ header .container .navbar {
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
+}
+header .container .navbar p {
+  display: none;
 }
 header .container .navbar .navbar_ul {
   display: flex;
@@ -68,10 +72,9 @@ main .section1 {
 main .section1 .container .marking_cards {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 30px;
 }
 main .section1 .container .marking_cards .marking_texet {
-  width: 535px;
   padding-top: 50px;
 }
 main .section1 .container .marking_cards .marking_texet h1 {
@@ -129,7 +132,6 @@ main .section1 .container .marking_cards .marking_texet .marking_button .food:ho
 }
 main .section1 .container .marking_cards img {
   width: 450px;
-  height: 400px;
 }
 main .section2 .container .new {
   margin-top: 100px;
@@ -156,7 +158,6 @@ main .section2 .container .new .new_cards {
   justify-content: space-between;
 }
 main .section2 .container .new .new_cards .card {
-  width: 300px;
   height: 228px;
   text-align: center;
 }
@@ -210,13 +211,10 @@ main .section3 {
 main .section3 .container .about .about_cards {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 50px;
 }
 main .section3 .container .about .about_cards img {
   width: 45%;
-}
-main .section3 .container .about .about_cards .about_texet {
-  width: 40%;
 }
 main .section3 .container .about .about_cards .about_texet .us {
   font-weight: 500;
@@ -256,4 +254,479 @@ main .section3 .container .about .about_cards .about_texet button:hover {
   border-radius: 5px;
   background: none;
   color: #DC780B;
+}
+main .section4 {
+  margin-top: 100px;
+}
+main .section4 .container .menu {
+  text-align: center;
+}
+main .section4 .container .menu button {
+  width: 142px;
+  height: 42px;
+  border: 1px solid #DC780B;
+  background: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #DC780B;
+  border-radius: 5px;
+  margin-top: 50px;
+  transition: all 1s ease-in-out;
+}
+main .section4 .container .menu button:hover {
+  border: none;
+  background: #DC780B;
+  color: #FFFFFF;
+}
+main .section4 .container .menu .menu_title {
+  text-align: center;
+  margin: 0 auto;
+}
+main .section4 .container .menu .menu_title .men {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #DC780B;
+}
+main .section4 .container .menu .menu_title h1 {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 24px;
+  color: #150C01;
+}
+main .section4 .container .menu .menu_title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+}
+main .section4 .container .menu .menu_cards {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+main .section4 .container .menu .menu_cards .card {
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  border-top-left-radius: 75px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+main .section4 .container .menu .menu_cards .card img {
+  width: 100%;
+}
+main .section4 .container .menu .menu_cards .card .card_suma {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .section4 .container .menu .menu_cards .card .card_suma h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  padding: 20px 25px;
+  color: #150C01;
+}
+main .section4 .container .menu .menu_cards .card .card_suma p {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  padding: 20px 25px;
+  color: #150C01;
+}
+main .section4 .container .menu .menu_cards .card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6a6866;
+  padding: 0px 25px;
+}
+main .section4 .container .menu .menu_cards .card .card_plus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 25px;
+}
+main .section4 .container .menu .menu_cards .card .card_plus button {
+  width: 36px;
+  height: 34px;
+  background: #DC780B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  transition: all 1s ease-in-out;
+}
+main .section4 .container .menu .menu_cards .card .card_plus button:hover {
+  background: none;
+  color: #DC780B;
+  border: 1px solid #DC780B;
+}
+main .section4 .container .menu .menu_cards .card .card_plus .star {
+  display: flex;
+  align-items: center;
+  color: #EDEDED;
+}
+main .section4 .container .menu .menu_cards .card .card_plus .star .card_star {
+  color: #DC780B;
+}
+main .section5 {
+  margin-top: 150px;
+  background: #FBF1E7;
+}
+main .section5 .container .take {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+main .section5 .container .take .take_text .ta {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #DC780B;
+  padding-bottom: 5px;
+}
+main .section5 .container .take .take_text h3 {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 41px;
+  color: #150C01;
+  padding-bottom: 29px;
+}
+main .section5 .container .take .take_text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+  padding-bottom: 39px;
+}
+main .section5 .container .take .tel {
+  transform: scale(1.2);
+  transition: all 1s ease-in-out;
+}
+main .section5 .container .take .tel:hover {
+  transform: scale(1);
+}
+main .section6 {
+  margin-top: 150px;
+}
+main .section6 .container .test {
+  margin: 0 auto;
+  text-align: center;
+}
+main .section6 .container .test .tes {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #DC780B;
+  padding-bottom: 12px;
+}
+main .section6 .container .test h3 {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 23px;
+}
+main .section6 .container .test p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 18px;
+}
+main .section6 .container .test h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #000000;
+  padding-top: 32px;
+  padding-bottom: 6px;
+}
+main .section6 .container .test .de {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #000000;
+}
+main .section6 .container .test .test_star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #C4C4C4;
+}
+main .section6 .container .test .test_star .card_star {
+  color: #DC780B;
+}
+main .section7 {
+  background: rgba(228, 206, 182, 0.8588235294);
+  margin-top: 120px;
+}
+main .section7 .container .contact {
+  text-align: center;
+  margin: 0 auto;
+  padding: 115px 0;
+}
+main .section7 .container .contact p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #DC780B;
+  padding-bottom: 15px;
+}
+main .section7 .container .contact h1 {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 40px;
+  color: #150C01;
+  padding-bottom: 46px;
+}
+main .section7 .container .contact form {
+  width: 750px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+main .section7 .container .contact form input {
+  width: 600px;
+  height: 50px;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 32px 0;
+  padding-left: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 41px;
+  color: #000000;
+  transition: all 1s ease-in-out;
+}
+main .section7 .container .contact form button {
+  width: 150px;
+  height: 66px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+  background: #DC780B;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 41px;
+  color: #FFFFFF;
+  transition: all 1s ease-in-out;
+}
+main .section7 .container .contact form:hover input {
+  background: #f6fdb9;
+  color: black;
+  border: 1px solid #DC780B;
+}
+main .section7 .container .contact form:hover button {
+  border: 1px solid #DC780B;
+  background: #FFFFFF;
+  color: #DC780B;
+}
+
+footer {
+  background: #252525;
+}
+footer .container .footer_boshi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+footer .container .footer_boshi p {
+  display: none;
+  color: #FFFFFF;
+}
+footer .container .footer_boshi .footer_left p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #FFFFFF;
+  padding-top: 17px;
+}
+footer .container .footer_boshi .footer_ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+footer .container .footer_boshi .footer_ul ul h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: #FFFFFF;
+  padding-bottom: 24px;
+}
+footer .container .footer_boshi .footer_ul ul li {
+  list-style: none;
+}
+footer .container .footer_boshi .footer_ul ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+footer .container .footer_boshi .footer_right ul h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: #FFFFFF;
+  padding-bottom: 24px;
+}
+footer .container .footer_boshi .footer_right ul li {
+  list-style: none;
+}
+footer .container .footer_boshi .footer_right ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+footer .container .footer_boshi .footer_right .footer_insta {
+  margin-top: 25px;
+}
+footer .container .footer_boshi .footer_right .footer_insta a {
+  color: #FFFFFF;
+}
+
+@media (max-width: 960px) {
+  .section1 .container .marking_cards {
+    flex-direction: column;
+  }
+  .section1 .container .marking_cards .marking_texet {
+    width: 100%;
+  }
+  .section1 .container .marking_cards img {
+    width: 100%;
+  }
+  .section2 .container .new_cards {
+    flex-wrap: wrap;
+  }
+  .section3 .container .about_cards {
+    flex-direction: column;
+  }
+  .section5 .container .take {
+    flex-direction: column;
+  }
+  .section5 .container .take .tel {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 780px) {
+  .section1 .container .marking_cards {
+    flex-direction: column;
+  }
+  .section1 .container .marking_cards .marking_texet {
+    width: 100%;
+  }
+  .section1 .container .marking_cards img {
+    width: 100%;
+  }
+  .section2 .container .new_cards {
+    flex-direction: column;
+  }
+  .section2 .container .new_cards .card {
+    width: 50%;
+  }
+  .section3 .container .about_cards {
+    flex-direction: column;
+  }
+  .section3 .container .about_cards .about_texet {
+    width: 50%;
+    text-align: center;
+  }
+  .section4 .container .menu_cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section4 .container .menu_cards .card {
+    width: 50%;
+  }
+  .section5 .container .take {
+    flex-direction: column;
+  }
+  .section5 .container .take .tel {
+    margin-top: 60px;
+  }
+  .section7 .container .contact form {
+    display: none;
+  }
+  .section7 .container .contact form input {
+    display: none;
+  }
+  .section7 .container .contact form button {
+    display: none;
+  }
+}
+@media (max-width: 675px) {
+  header .container .navbar p {
+    display: block;
+  }
+  header .container .navbar .navbar_ul ul {
+    display: none;
+  }
+  .section1 .container .marking_cards {
+    flex-direction: column;
+  }
+  .section1 .container .marking_cards .marking_texet {
+    width: 100%;
+  }
+  .section1 .container .marking_cards img {
+    width: 100%;
+  }
+  .section2 .container .new_cards {
+    flex-direction: column;
+  }
+  .section2 .container .new_cards .card {
+    width: 50%;
+  }
+  .section3 .container .about_cards {
+    flex-direction: column;
+  }
+  .section3 .container .about_cards .about_texet {
+    width: 50%;
+    text-align: center;
+  }
+  .section4 .container .menu_cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section4 .container .menu_cards .card {
+    width: 50%;
+  }
+  .section5 .container .take {
+    flex-direction: column;
+  }
+  .section5 .container .take .tel {
+    margin-top: 60px;
+  }
+  .section7 .container .contact form {
+    display: none;
+  }
+  .section7 .container .contact form input {
+    display: none;
+  }
+  .section7 .container .contact form button {
+    display: none;
+  }
+  footer .container .footer_boshi p {
+    display: block;
+  }
+  footer .container .footer_boshi .footer_ul {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
